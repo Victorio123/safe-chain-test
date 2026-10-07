@@ -29,3 +29,6 @@ jobs:
         
       - name: Try installing test malware
         run: npm install safe-chain-test
+        
+      - name: Check npm shim
+        run: which npm
